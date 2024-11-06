@@ -4,7 +4,7 @@ body{
 /* 툴팁 */
 .tooltip{
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -12,7 +12,7 @@ body{
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: 125%; /* 위치 조절 */
+    bottom: 110%;
     left: 50%;
     margin-left: -60px;
     opacity: 0;

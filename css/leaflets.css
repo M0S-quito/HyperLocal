@@ -1,0 +1,21 @@
+@import url("./stylesheet.css");
+
+/* 건물 왼쪽 큰 전단지 */
+.market .skhu{
+    position: absolute;
+    width:18px;
+    height:18px;
+    top: 455px;
+    left: 408px;
+    /* background-color: gray; */
+}
+.market .skhu a>img{
+    width:18px;
+    height:18px;
+}
+/* 일단 호버 했을때 비율 때문에 컷!!
+.market .skhu:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+*/
