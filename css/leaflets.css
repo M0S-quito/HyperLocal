@@ -13,9 +13,9 @@
     width:18px;
     height:18px;
 }
-/* 일단 호버 했을때 비율 때문에 컷!!
+
 .market .skhu:hover .tooltip{
     visibility: visible;
+    bottom: 150%;
     opacity: 1;
 }
-*/

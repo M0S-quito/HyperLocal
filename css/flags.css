@@ -1,15 +1,38 @@
 @import url("./stylesheet.css");
 
 /* 가로등 오른쪽 깃발 */
-.market .right_flag{
+.market .left_flag{
     position: absolute;
     top: 408PX;
     left: 59px;
     width: 33px;
     height: 140px;
 
-    /* border: 1px solid black;  */
-    /* border-radius: 5px; */
+    /* background-color: black; */
+}
+.market .left_flag:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.market .left_flag >a{
+    display: block;
+    width:33px;
+    height:140px;
+}
+.market .left_flag:hover .tooltip{
+    visibility: visible;
+    bottom: 105%;
+    opacity: 1;
+}
+
+/* 가로등 왼쪽 깃발 */
+.market .right_flag{
+    position: absolute;
+    top: 295PX;
+    left: 117px;
+    width: 33px;
+    height: 103px;
+
+    /* background-color: black; */
 }
 .market .right_flag:hover{
     box-shadow: 0px 0px 10px black;
@@ -21,5 +44,6 @@
 }
 .market .right_flag:hover .tooltip{
     visibility: visible;
+    bottom: 110%;
     opacity: 1;
 }

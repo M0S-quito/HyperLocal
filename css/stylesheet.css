@@ -12,7 +12,6 @@ body{
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: 110%;
     left: 50%;
     margin-left: -60px;
     opacity: 0;
@@ -21,13 +20,12 @@ body{
 /* 배경 마켓 */
 .market{
     margin:0 auto;
-    margin-top: 70px;
+    margin-top: 60px;
     width: 670px;
     height:600px;
     position: relative;
 
-    border: 2px solid black; 
-    border-radius: 5px;
+    /* border: 2px solid black;  */
 
     position: relative;
     z-index: 1;
