@@ -1,6 +1,6 @@
 @import url("./stylesheet.css");
 
-/* 건물 왼쪽 큰 전단지 */
+/* 건물 앞 오른쪽 작은 전단지 */
 .market .skhu{
     position: absolute;
     width:18px;
@@ -9,13 +9,15 @@
     left: 408px;
     /* background-color: gray; */
 }
+.market .skhu:hover{
+    box-shadow: 0px 0px 10px black;
+}
 .market .skhu a>img{
     width:18px;
     height:18px;
 }
-
 .market .skhu:hover .tooltip{
     visibility: visible;
-    bottom: 150%;
+    bottom: 160%;
     opacity: 1;
 }

@@ -1,0 +1,26 @@
+@import url("./stylesheet.css");
+
+/* 로봇 */
+.market .robot{
+    position: absolute;
+    top: 460PX;
+    left: 295px;
+    width: 40px;
+    height: 60px;
+
+    /* border: 2px solid black; */
+    /* background-color: black; */
+}
+.market .robot:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.market .robot >a{
+    display: block;
+    width:33px;
+    height:140px;
+}
+ .market .robot:hover .tooltip{ 
+    visibility: visible;
+    bottom: 105%;
+    opacity: 1;
+}
